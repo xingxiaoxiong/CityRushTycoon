@@ -1,0 +1,46 @@
+{
+  "name": "Train",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Source": {
+        "$path": "src/ReplicatedStorage"
+      },
+      "Packages": {
+        "$path": "Packages"
+      },
+      "Libs": {
+        "$path": "Libs",
+        "Roact": {
+          "$path": "Libs/Roact"
+        },
+        "Rodux": {
+          "$path": "Libs/Rodux"
+        },
+        "RoactRodux": {
+          "$path": "Libs/RoactRodux"
+        }
+      }
+    },
+
+    "ServerScriptService": {
+      "$path": "src/ServerScriptService"
+    },
+
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "$ignoreUnknownInstances": true,
+      "$path": "src/ServerStorage"
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "$path": "src/StarterPlayerScripts"
+      },
+      "StarterCharacterScripts": {
+        "$path": "src/StarterCharacterScripts"
+      }
+    }
+  }
+}
